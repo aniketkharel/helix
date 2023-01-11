@@ -261,9 +261,8 @@ dependencies = [
 
 [[package]]
 name = "crossterm"
-version = "0.25.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e64e6c0fbe2c17357405f7c758c1ef960fce08bdfb2c03d88d2a18d7e09c4b67"
+version = "0.26.0"
+source = "git+https://github.com/crossterm-rs/crossterm?rev=bca71adad70c36de3a4e13d7edc31c0ef9567f47#bca71adad70c36de3a4e13d7edc31c0ef9567f47"
 dependencies = [
  "bitflags",
  "crossterm_winapi",
